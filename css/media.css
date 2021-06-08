@@ -1,0 +1,70 @@
+@media (min-width: 1600px) {
+	.box-container {
+        max-width: 1175px;
+        margin-right: auto; /* Автоматическое позиционирование */
+        margin-left: auto; /* Автоматическое позиционирование */
+    }
+}
+
+@media (max-width: 1600px) {
+	.box-container {
+        max-width: 1175px;
+        /* width: 100% !important; */
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+
+/*==========  Desktop First Method  ==========*/
+/* @media (max-width: 1390px) {
+    .box-container {
+      max-width: 1175px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+} */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1175px) {
+  .box-container {
+      max-width: 1024px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width : 1024px) {
+
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  
+}
+
+@media only screen and (max-width : 699px) {
+
+}
+
+@media only screen and (max-width : 550px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+   
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    
+}
