@@ -16,12 +16,10 @@
 
 7. Наши продукты: https://walkinded.github.io/SharkhinskyQuarry/products.html
 
-8.
+8. Щебень: https://walkinded.github.io/SharkhinskyQuarry/product_one.html
 
-9.
+9. Бут и бутовый камень: https://walkinded.github.io/SharkhinskyQuarry/product_two.html
 
-10.
+10. Песок: https://walkinded.github.io/SharkhinskyQuarry/product_three.html
 
-11.
-
-12.
+11. Отсев: https://walkinded.github.io/SharkhinskyQuarry/product_four.html
