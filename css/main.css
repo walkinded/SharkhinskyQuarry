@@ -547,7 +547,7 @@ footer a:hover {
   line-height: 28px;
   text-transform: uppercase;
 
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .our_products__column {
@@ -700,9 +700,9 @@ footer a:hover {
   height: 46px;
 }
 
-.contact_container .main_title h2 {
+/* .contact_container .main_title h2 {
   margin: 0;
-}
+} */
 
 .contact_container_text {
   font-size: 16px;
@@ -850,9 +850,9 @@ footer a:hover {
   padding-top: 54px !important;
 }
 
-.contacts .main_title h2 {
+/* .contacts .main_title h2 {
   margin: 5px 0;
-}
+} */
 
 .contacts_box {
   max-width: 370px;
@@ -1040,9 +1040,9 @@ footer a:hover {
 /* news */
 .news {}
 
-.news .main_title h2 {
+/* .news .main_title h2 {
   margin: 5px 0;
-}
+} */
 
 .news_box {
   max-width: 370px;
@@ -1427,3 +1427,106 @@ footer a:hover {
 
   z-index: 5;
 }
+
+
+
+
+/* products */
+.products {
+  background-color: #F9F9F9;
+  background-image: none;
+  margin: 0;
+}
+
+.products .our_products__content {
+  padding-top: 50px;
+}
+
+.products .our_products__column {
+  margin-bottom: 80px;
+}
+
+
+
+.products_document_box {
+  max-width: 339px;
+  max-height: 351px;
+
+  width: 100%;
+  height: 100%;
+
+  background: #FFFFFF;
+
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.bg_icon {
+  max-width: 339px;
+  max-height: 351px;
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transition: .3s;
+}
+
+
+.products_document_box p {
+  margin-bottom: 20px;
+}
+
+.products_document_box .fancybox {
+  height: 255px;
+
+  width: 100%;
+  position: relative;
+  transition: .3s;
+  margin-bottom: 27px;
+}
+
+.products_document_box img {
+  position: absolute;
+  max-height: 255px;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products_document_box .fancybox:hover .bg_icon{
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, .5);
+  z-index: 4;
+  transition: .3s;
+}
+
+.products_document_box .fancybox:hover .bg_icon::before {
+  position: absolute;
+  display: flex;
+  content: " ";
+
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/svg/magnifier_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 38px;
+  height: 38px;
+  top: 45%;
+  left: 45%;
+  transition: .3s;
+}
+
+/* / products */

@@ -27,7 +27,7 @@ $(document).ready(function(){
 });
 
 $(window).scroll(function() {
-  if ($(this).scrollTop() > 181){
+  if ($(this).scrollTop() > 100){
       $('header').addClass('header_fixed');    
       $('.first_header').addClass('first_header_set');  
   }else{
@@ -35,3 +35,5 @@ $(window).scroll(function() {
       $('.first_header').removeClass('first_header_set');
     }
 });
+
+$('.fancybox').fancybox();
