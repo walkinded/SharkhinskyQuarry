@@ -27,12 +27,12 @@ $(document).ready(function(){
 });
 
 $(window).scroll(function() {
-  if ($(this).scrollTop() > 100){
+  if ($(this).scrollTop() > 181){
       $('header').addClass('header_fixed');    
-      $('.first_header').addClass('first_header_set');  
+      $('.fantom_block').addClass('fantom_block_on');  
   }else{
       $('header').removeClass("header_fixed"); 
-      $('.first_header').removeClass('first_header_set');
+      $('.fantom_block').removeClass('fantom_block_on');
     }
 });
 

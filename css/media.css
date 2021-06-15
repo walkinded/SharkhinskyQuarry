@@ -137,6 +137,7 @@
   }
   .products_document_box {
     max-width: 100%;
+    width: auto;
     margin-bottom: 30px;
   }
     
@@ -214,7 +215,37 @@
   .article_img {
     max-width: 100%;
   }
+
+  .article_box {
+    max-width: 100%;
+  }
+  .article_box_doc {
+    display: block;
+  }
+
+  .bg_icon {
+    max-width: 100%;
+  }
+
+  .img_large {
+    max-width: 100%;
+  }
   
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gallery a {
+    margin: auto;
+  }
+
+  .two_img .gallery_sertificate img {
+    margin: 0 auto 30px auto;
+  }
+  .news_photos_img {
+    flex-wrap: wrap;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -315,6 +346,22 @@
   }
   .products .our_products__column {
     margin-bottom: 40px;
+  }
+
+  /* .table-container {
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  } */
+  .article_content table {
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .news_photos_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
