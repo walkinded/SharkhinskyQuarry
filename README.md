@@ -14,7 +14,7 @@
 
 6. Статья: https://walkinded.github.io/SharkhinskyQuarry/article.html
 
-7.
+7. Наши продукты: https://walkinded.github.io/SharkhinskyQuarry/products.html
 
 8.
 
